@@ -1,0 +1,145 @@
+.footer{
+    background-image:url(./../img/bg.png);
+    color: white;
+    height: 476px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 476px;
+    background-repeat:no-repeat;
+    // margin-bottom: 30px;
+    &-container{
+        max-width: 1210px;
+        margin: 0 auto;
+        display: flex;
+    }
+    &-address{
+        padding-top: 66px;
+        width: 316px;
+        margin-right: 113px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title{
+            font-size: 30px;
+            font-family: "Pacifico",sans-serif;
+            margin-bottom: 71px;
+        }
+        &-address{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 22px;
+            line-height: 1.2;
+            width: 180px;
+
+        }
+        &-phone{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 117px;
+        }
+        &-social{
+            margin-left: 8px;
+        }
+    }
+    &-social-list{
+        list-style: none;
+        display: flex;
+        gap: 14px;
+        font-size: 25px;
+        color:$yellow;
+        cursor: pointer;
+    }
+    &-social-list i:hover{
+        opacity:0.8;
+    }
+
+    &-working{
+        padding-top: 58px;
+        width: 253px;
+        margin-right: 117px;
+        &-title{
+            font-size: 30px;
+            font-family: "Pacifico",sans-serif;
+            margin-bottom: 63px;
+            margin-left: 13px;
+        }
+        &-time{
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 15px;
+            p.day-of-the-week{
+                margin-left: 52px;
+                letter-spacing: 0.5px;
+                margin-bottom: 20px;
+            }
+            p.open-hours{
+                width: 247px;
+                text-indent: 19px;
+                line-height: 1.17;
+                margin-bottom: 20px;
+            }
+            #day1{
+                text-indent: 4px;
+            }
+            #day2{
+                letter-spacing: 0.67px;
+            }
+            #hour1{
+                margin-left: 3px;
+                text-indent: 13px;
+            
+            }
+        }
+    }
+    &-feedback{
+        width: 375px;
+        padding-top: 55px;
+        &-title{
+            font-size: 30px;
+            font-family: "Pacifico",sans-serif;
+            margin-bottom: 23px;
+        }
+        &-input{
+            width: 371px;
+            height: 44px;
+            background-color: #323232;
+            color:white;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 11px;
+            border: none;
+            border-radius: 7px;
+            padding-left: 25px;
+        }
+        &-text{
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 11px;
+            border: none;
+            border-radius: 7px;
+            height: 110px;
+            width: 371px;
+            background-color: #323232;
+            padding-left: 25px;
+            padding-top: 14px;
+            color:white;
+
+
+        }
+        &-btn{
+            width: 149px;
+            height: 48px;
+            background-color: $yellow;
+            color: white;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 7px;
+            border: none;
+            margin-left: 4px;
+            cursor:pointer;
+        }
+        &-btn:hover{
+            opacity:0.8;
+        }
+    }
+
+}

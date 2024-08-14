@@ -1,0 +1,59 @@
+.about-us{
+    background-image: url(./../img/ss2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 614px;
+    background-position: center;
+    // padding-bottom: 56.25%;
+    &-wrapper{
+        width: 1181px;
+        margin: 0 auto;
+    }
+    &-container{
+        padding-top: 103px;
+        display: flex;
+        &-left{
+        margin-right: 74px;
+    }
+        &-right{
+            width: 673px;
+        }
+    }
+    &-title{
+        margin-top: 10px;
+        margin-left: 4px;
+        font-size: 30px;
+        font-family: "Pacifico";
+        color: black;
+        text-transform: math-auto;
+        margin-bottom: 7px;
+    }
+    &-desc{
+        font-size: 38.3px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        margin-left: -3px;
+    }
+    &-content{
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 37px;
+        line-height:1.2;
+        
+    }
+    &-btn{
+        width: 149px;
+        height: 48px;
+        background-color: #e7a331;
+        color: white;
+        border-radius: 7px;
+        border-color: white;
+        border: 0;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: -3px;
+        cursor:pointer;
+    }
+    &-btn:hover{
+        opacity:0.8;
+    }
+    
+}

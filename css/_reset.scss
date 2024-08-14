@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  font-family: "Time New Roman", sans-serif;
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+}
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+a{
+text-decoration: none;
+}
+a {  
+  color: inherit; 
+} 
+
+@font-face {  
+  font-family: 'Myriad Pro';  
+  src: url('./../font/MyriadPro-SemiExt.otf') format('woff2');    
+  font-weight: normal;  
+  font-style: normal;  
+}  
+$yellow: #e7a331;
+$black:#1d1d1d;
